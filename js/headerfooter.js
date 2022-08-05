@@ -5,12 +5,12 @@ class MyHeader extends HTMLElement {
             <nav class="navigation">
                 <img class="logo" src="../image/logo-sahyadri.png" alt="no">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="#">Hospitals &nbsp; <i class="fas fa-caret-down"></i> </a>
                         <ul>
-                            <li><a href="html/pune-hospital.html">Pune</a></li>
-                            <li><a href="html/nasik-hospital.html">Nasik</a></li>
-                            <li><a href="html/karad-hospital.html">Karad</a></li>
+                            <li><a href="../html/pune-hospital.html">Pune</a></li>
+                            <li><a href="../html/nasik-hospital.html">Nasik</a></li>
+                            <li><a href="../html/karad-hospital.html">Karad</a></li>
                         </ul>
                     </li>
                     <li><a href="../html/speciality.html">Specialities</a></li>
