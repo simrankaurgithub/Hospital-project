@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <div class="dropdown">
             <nav class="navigation">
-                <img class="logo" src="../image/logo-sahyadri.png" alt="no">
+                <img class="logo" src="image/logo-sahyadri.png" alt="no">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="#">Hospitals &nbsp; <i class="fas fa-caret-down"></i> </a>
