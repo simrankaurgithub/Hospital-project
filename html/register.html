@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="..\css\home.css">
+    <script src="..\js\headerfooter.js"></script>
+</head>
+
+<body>
+    <my-header></my-header>
+    <div class="register" >
+        <form action="" class="register-form" >
+            <h1>Hospital Registration Form</h1>
+            <p>Thank you for applying to our practices. Please complete this patient registration form with your
+                informaton and a doctor will contact your shortly. </p>
+            <hr> <br>
+            <label for="uname">Patient Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="uname" id="uname" placeholder="First Name " size="32px">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Last Name" size="32px"><br><br>
+            <label>Gender</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rad" type="radio" value="Female" name="gen">Female
+            <input class="rad" type="radio" value="Male" name="gen">Male <br><br>
+            <label for="phone">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="phone" id="phone" placeholder="Phone" size="32px"><br><br>
+            <label for="bdate">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="bdate" id="bdate" style="width: 310px;"><br><br>
+            <label> Marital Status </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rad"type="radio" value="sin" name="gen">Single
+            <input class="rad" type="radio" value="Marry" name="gen">Married
+            <input class="rad" type="radio" value="divorce" name="gen">Divorced
+            <input  class="rad" type="radio" value="widow" name="gen">Widow <br><br>
+            <label>Patient's Address</label>&nbsp;&nbsp;
+            <input type="text" placeholder="Street Address" size="69px"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="City" size="32px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" placeholder="Postal/Zip Code" style="width: 295px;"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="sub"  >
+                <option>State</option>
+                <option value="punj">Punjab</option>
+                <option value="hr">Haryana</option>
+                <option value="hp">Himachal Pardesh</option>
+                <option value="jk">Jammu and Kashmir</option>
+                <option value="rj">Rajsthan</option>
+                <option value="up">Uttar Pardesh</option>
+                <option value="">Andhra Pradesh</option>
+                <option value="">Assam</option>
+                <option value="">Bihar</option>
+                <option value="">Goa</option>
+                <option value="">Gujarat</option>
+                <option value="">Chhattisgarh</option>
+                <option value="">Jharkhand</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value="">Manipur</option>
+                <option value="">Odisha</option>
+            </select><br><br><br>
+            <button style="font-size: 16px;" >Register</button><br><br>
+        </form>
+    </div>
+
+    <my-footer> </my-footer>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="..\css\home.css">
+    <script src="..\js\headerfooter.js"></script>
+</head>
+
+<body>
+    <my-header></my-header>
+    <div id="hospfront">
+        <img src="../image/hospital-front.jpg" alt="no">
+    </div>
+    <div class="department">
+        <h1>Centers of Excellence</h1>
+        <div id="center">
+            <div class="depart">
+                <div class="explain">
+                    <img src="..\image\center1.jpg" alt="no">
+                </div>
+                <div id="explain2">Neurosurgery</div>
+            </div>
+            <div class="depart">
+                <div class="explain">
+                    <img src="..\image\organ.jpg" alt="no">
+                </div>
+                <div id="explain2">Organ transplants</div>
+            </div>
+            <div class="depart">
+                <div class="explain">
+                    <img src="..\image\hematology.jpg" alt="no">
+                </div>
+                <div id="explain2">Haematology</div>
+            </div>
+            <div class="depart">
+                <div class="explain">
+                    <img src="..\image\cardiology.png" alt="no">
+                </div>
+                <div id="explain2">Cardiology</div>
+            </div>
+        </div>
+    </div>
+    <div id="bookappointment">
+        <button class="btn btn-danger " data-toggle='modal' data-target='#my_division'>Book An
+            Appointment
+        </button>
+    </div>
+    <div id="my_division" class="modal fade" data-keyboard='false' data-backdrop='static'>
+        <div class="modal-dialog modal-md modal-dialog-centered text-white">
+            <div class="modal-content bg-danger  ">
+                <div class="modal-header">
+                    <p class="h1 modal-title">Appointment Form </p>
+                    <button data-dismiss='modal' class="close">&times;</button>
+                </div>
+                <div class="modal-body ">
+                    <form>
+                        <div class="form-group " >
+                            <input type="text" class="form-control " placeholder="Your Full Name*">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Phone Number*">
+                        </div>
+                        <div class="form-group">
+                            <select name="sub" class="form-control" >
+                                <option>Select Treatment</option>
+                                <option value="punj">Neurosurgery</option>
+                                <option value="hr">Haematology</option>
+                                <option value="hp">Cardiology</option>
+                                <option value="jk">Pulmonology</option>
+                                <option value="rj">General-Surgery</option>
+                                <option value="up">Urology</option>
+                                <option value="">Orthopedic</option>
+                                <option value="">Nephrology</option>
+                                <option value="">Gynecology</option>
+                                <option value="">Cardiac Surgury</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="sub" class="form-control" >
+                                <option>Select Branch</option>
+                                <option value="punj">Pune</option>
+                                <option value="hr">Nasik</option>
+                                <option value="hr">Karad</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Please Tell Us Your Concern"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success w-100" data-dismiss='modal'>Get An Appointment</button>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <p id="main">Sahyadri Hospitals is the largest chain of hospitals in Maharashtra. It is the brainchild of Dr.
+            Charudutt Apte, one of Indias most renowned Neurosurgeons and more importantly an ardent practitioner of
+            ethical medical practices</p>
+        <div id="info1">
+            <div class="info2">
+                <div class="info3">
+                    <img src="..\image\hosplogo.png" alt="no">
+                </div>
+                <p class="content"><span class="bold">8</span>&nbsp; Hospitals</p>
+            </div>
+            <div class="info2">
+                <div class="info3">
+                    <img src="..\image\bedlogo.png" alt="no">
+                </div>
+                <p class="content"><span class="bold">900</span>&nbsp; Beds</p>
+            </div>
+            <div class="info2">
+                <div class="info3">
+                    <img src="..\image\cliniclogo.png" alt="no">
+                </div>
+                <p class="content"><span class="bold">2000</span>&nbsp; Clinicians</p>
+            </div>
+            <div class="info2">
+                <div class="info3">
+                    <img src="..\image\stafflogo.png" alt="no">
+                </div>
+                <p class="content"><span class="bold">2600</span>&nbsp; Expert Staff</p>
+            </div>
+            <div class="info2">
+                <div class="info3">
+                    <img src="..\image\explogo.png" alt="no">
+                </div>
+                <p class="content"><span class="bold">27</span>&nbsp; Years Of Experience</p>
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div id="review1">
+            <h1>Patient Feedback</h1>
+            <p>We thank you for choosing Sahyadri Hospitals for your treatment. Your feedback is our achievement. We
+                have taken a number of steps to ensure that the services rendered to you are fully met.</p>
+        </div>
+        <div id="review2">
+            <div class="review3">
+                <div class="review4">
+                    <div class="review5">
+                        <img src="..\image\comareview.png" alt="">
+                    </div>
+                    <div class="review6">
+                        My father was rushed to the Sahyadri Hospital as he suffered from restlessness and pain in his
+                        left hand & shoulder. Doctors informed us about his heart condition. Since then, he is getting
+                        treatment from the hospital. Doctors are very helpful and guide best on food and daily lifestyle
+                        for heart patients."
+                    </div>
+                    <div class="review7">
+                        <img src="..\image\starreview.png" alt="">
+                    </div>
+                    <div class="review8">
+                        <img src="..\image\namereview.png" alt="">
+                    </div>
+                </div>
+                <div class="review9">
+                    Denise Chakarnarayan
+                </div>
+            </div>
+            <div class="review3">
+                <div class="review4">
+                    <div class="review5">
+                        <img src="..\image\comareview.png" alt="">
+                    </div>
+                    <div class="review6">
+                        Thank you very much for your excellent service. Sahyadri Hospital is very good at emergency
+                        care. We called for an ambulance for our neighbour, and within minutes their ambulance arrived.
+                        Timely first aid and medical help was a big saviour for the patient."
+                    </div>
+                    <div class="review7">
+                        <img src="..\image\starreview.png" alt="">
+                    </div>
+                    <div class="review8">
+                        <img src="..\image\namereview.png" alt="">
+                    </div>
+                </div>
+                <div class="review9">
+                    Dinesh Chandra
+                </div>
+            </div>
+            <div class="review3">
+                <div class="review4">
+                    <div class="review5">
+                        <img src="..\image\comareview.png" alt="">
+                    </div>
+                    <div class="review6">
+                        Our daughter was born in Sahyadri Hospital. Doctors took care of the complete pregnancy and
+                        post-pregnancy treatment. My wife and baby were healthy at the time of delivery. I just cannot
+                        forget the moment the nurse gave me my baby to hold. Thanks to all working at this hospital.
+                    </div>
+                    <div class="review7">
+                        <img src="image\starreview.png" alt="">
+                    </div>
+                    <div class="review8">
+                        <img src="..\image\namereview.png" alt="">
+                    </div>
+                </div>
+                <div class="review9">
+                    Anupam
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="meet">
+        <div id="uppermeet">
+            <div class="innermeet" id="meetcontent">
+                Meet Our Most <br> Experienced Doctors <br>
+            </div>
+            <div class="innermeet" id="meetimage">
+                <img src="..\image\meetimg.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="bookappointment">
+        <button class="btn btn-danger " data-toggle='modal' data-target='#my_division'>Book An
+            Appointment
+        </button>
+    </div>
+    <div id="my_division" class="modal fade" data-keyboard='false' data-backdrop='static'>
+        <div class="modal-dialog modal-md modal-dialog-centered text-white">
+            <div class="modal-content bg-danger  ">
+                <div class="modal-header">
+                    <p class="h1 modal-title">Appointment Form </p>
+                    <button data-dismiss='modal' class="close">&times;</button>
+                </div>
+                <div class="modal-body ">
+                    <form>
+                        <div class="form-group " >
+                            <input type="text" class="form-control " placeholder="Your Full Name*">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Phone Number*">
+                        </div>
+                        <div class="form-group">
+                            <select name="sub" class="form-control" >
+                                <option>Select Treatment</option>
+                                <option value="punj">Neurosurgery</option>
+                                <option value="hr">Haematology</option>
+                                <option value="hp">Cardiology</option>
+                                <option value="jk">Pulmonology</option>
+                                <option value="rj">General-Surgery</option>
+                                <option value="up">Urology</option>
+                                <option value="">Orthopedic</option>
+                                <option value="">Nephrology</option>
+                                <option value="">Gynecology</option>
+                                <option value="">Cardiac Surgury</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="sub" class="form-control" >
+                                <option>Select Branch</option>
+                                <option value="punj">Pune</option>
+                                <option value="hr">Nasik</option>
+                                <option value="hr">Karad</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Please Tell Us Your Concern"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success w-100" data-dismiss='modal'>Get An Appointment</button>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <my-footer></my-footer>
+</body>
+
+</html>

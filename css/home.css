@@ -1,0 +1,646 @@
+body {
+    box-sizing: border-box;
+    font-family: open sans, Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.dropdown {
+    margin: 0 auto;
+    width: 100%;
+}    
+
+.navigation {
+    height: 90px;
+    background-color: #5ab4d7;
+}
+
+.logo {
+    height: 70px;
+    margin-top: 7px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    list-style: none;
+    float: right;
+    background-color: #5ab4d7;
+}
+
+.navigation > ul {
+    margin: 25px ;
+    margin-right: 70px;
+    /* font-weight: bold; */
+}
+
+.navigation ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+
+}
+
+.navigation > ul > li {
+    margin: 0px 12px 0px 12px;
+}
+
+.navigation ul a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
+.navigation ul li a:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sim li {
+    width: 200px;
+}
+
+.navigation ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+.navigation ul li:hover>ul {
+    display: block;
+
+}
+
+.navigation ul ul li {
+    width: 200px;
+    float: none;
+}
+
+/* hospital front image  */
+
+#hospfront {
+    width: 100%;
+    height: 500px;
+}
+
+#hospfront img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* department */
+
+.department {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-color: rgb(223, 219, 219);
+}
+
+#center {
+    height: 350px;
+    display: flex;
+    margin: auto;
+    width: 83%;
+}
+
+.department h1 {
+    font-size: 27px;
+    text-align: center;
+}
+
+.depart {
+
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 270px;
+    margin: 30px;
+}
+
+.explain {
+
+    width: 200px;
+    height: 160px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.explain img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#explain2 {
+    font-weight: bolder;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#bookappointment {
+    width: 100%;
+    height: 35px;
+    background-color: #cb3953;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* information */
+.info {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-color: white;
+}
+
+#info1 {
+    height: 350px;
+    display: flex;
+    margin: auto;
+    width: 85%;
+}
+
+#main {
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.info2 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+}
+
+.info3 {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.info3 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.content {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* review */
+
+.review {
+
+    height: 570px;
+    width: 100%;
+}
+
+#review2 {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin: auto;
+
+}
+#review1 h1{
+    padding-bottom: 30px;
+    margin: 0 ;
+    text-align: center;
+}
+#review1 p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.review3 {
+    float: left;
+    width: 365px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 30px;
+}
+
+.review4 {
+    background-color: #ceecff;
+    width: 365px;
+    height: 300px;
+}
+
+.review9 {
+    width: 360px;
+    height: 90px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.review5 {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+.review6 {
+    width: 350px;
+    height: 150px;
+    margin: 2px;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+}
+
+.review7 {
+    width: 140px;
+    margin: auto;
+    height: 50px;
+    padding-bottom: 0px;
+}
+
+.review8 {
+    margin: auto;
+    width: 50px;
+    height: 20px;
+    margin-top: 18px;
+}
+
+/* meet */
+
+#meet {
+    background-color: #0094cd;
+    height: 240px;
+    width: 100%;
+    margin: auto;
+}
+
+#uppermeet {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+}
+
+#meetcontent {
+    height: 250px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 70px;
+    padding-left: 150px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+#meetimage {
+    object-fit: cover;
+    height: 260px;
+    width: 30%;
+
+}
+
+#bookappointment {
+    height: 70px;
+    background-color: #e61e43;
+    padding: 15px;
+}
+
+/* modal bootstrap */
+
+.modal-title{
+    font-size: 25px;
+}
+.modal-body .form-control{
+
+background-color:rgb(250, 203, 250);
+}
+
+/* Footer */
+
+#footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #5ab4d7;
+}
+
+.footer1 {
+    height: 300px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.footer2 {
+    height: 300px;
+}
+
+#foot1 {
+    width: 250px;
+    margin-right: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+#foot1 p {
+    text-align: justify;
+}
+
+#foot2 {
+    width: 200px;
+    margin-right: 50px;
+}
+
+#foot2 h3 {
+    text-align: center;
+}
+
+#foot3 {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.footer2 p {
+    font-size: 15px;
+
+}
+
+#foot4 {
+    width: 300px;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.footer2 h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    /* text-align: center; */
+    font-size: 20px;
+
+}
+
+#foot2 ul {
+    list-style: none;
+}
+
+#foot2 ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#footbtn {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #e61e43;
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+
+/*     ************************************* hospital-pune-nasik-karad *******************************************    */
+
+#hospital {
+    
+    height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(87, 153, 219);
+}
+
+.hospital1 {
+
+    width: 45%;
+    height: 450px;
+
+}
+
+.hospital1 h1 {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.hospital1 img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.hospital2 h1 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.hospital2 p {
+    text-align: center;
+    padding: 5px 200px 5px 200px;
+}
+
+.hospital1 hr {
+    height: 5px;
+    background-color: rgb(153, 8, 8);
+    width: 600px;
+}
+.hospital1 span{
+    font-size: 30px;
+}
+
+/*     ************************************* about-overview*******************************************    */
+
+
+.overview2 h1 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.overview2 p {
+    text-align: justify;
+    padding: 5px 200px 5px 200px;
+}
+
+/*     ************************************* about-chairman*******************************************    */
+
+#chairman-head{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 40px;
+    font-family: cursive;
+}
+#chairman-span{
+    text-align: center;
+    font-size: 15px;
+    font-weight: none;
+    font-family: cursive;
+}
+.hospital3 p  {
+    text-align:left ;
+}
+.hospital3 h1{
+    text-align: left;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    margin-left: 200px;
+
+}
+.hospital3 span{
+    margin-left: 200px;
+    
+}
+
+/*     ************************************* login-form*******************************************    */
+
+
+#login {
+    background: linear-gradient(to left,#4db8ff , #b3e0ff,white ,#b3e0ff ,#4db8ff);
+    height: 600px;
+    padding-top: 50px;
+}
+
+.login-form {
+    border: 4px solid white;
+    border-radius: 30px;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: #0099ff;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.login-input{
+    border-radius: 25px;
+    border-color: white;
+    line-height: 40px;
+    width: 250px;
+    background-color: white ;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+/*     ************************************registration-form*******************************************    */
+
+.register {
+    font-size: 17px;
+    background-color: #0099ff;
+    height: 820px;
+    padding: 50px;
+}
+.register-form{
+    margin: auto;
+    width:800px;
+    font-size: 17px;
+}
+
+.register-form h1{
+    text-align: left;
+}
+
+.register-form select {
+    border-radius: 5px;
+    height: 35px;
+    width: 640px;
+    background-color: #ccebff;
+
+}
+.register-form input{
+    background-color: #ccebff;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.rad{
+    width: 30px;
+}
+.register-form button {
+    background-color: #ccebff;
+    width: 150px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+/*     ************************************contact-form*******************************************    */
+
+.contact-us {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-us-form {
+    width: 600px;
+    height: 400px;
+    font-weight: bold;
+
+}
+
+.contact-us-form h1 {
+    text-align: left;
+}
+
+.contact-us-input {
+    border-radius: 5px;
+    line-height: 40px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding-left: 8px;
+
+}
+#contact-us-button{
+    border: none;
+    border-radius: 5px;
+    line-height: 40px;
+    width: 200px;
+    background-color: #d42646;
+    color: white;
+    padding-left: 8px;
+    font-size: 15px ;
+}
+.contact-us-textarea{
+    font-size: 15px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 40px;
+    width: 505px;
+    padding-left: 8px;
+}
