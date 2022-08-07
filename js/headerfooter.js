@@ -3,27 +3,27 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <div class="dropdown">
             <nav class="navigation">
-                <img class="logo" src="../image/logo-sahyadri.png" alt="no">
+                <img class="logo" src="image/logo-sahyadri.png" alt="no">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">Hospitals &nbsp; <i class="fas fa-caret-down"></i> </a>
                         <ul>
-                            <li><a href="../html/pune-hospital.html">Pune</a></li>
-                            <li><a href="../html/nasik-hospital.html">Nasik</a></li>
-                            <li><a href="../html/karad-hospital.html">Karad</a></li>
+                            <li><a href="pune-hospital.html">Pune</a></li>
+                            <li><a href="nasik-hospital.html">Nasik</a></li>
+                            <li><a href="karad-hospital.html">Karad</a></li>
                         </ul>
                     </li>
-                    <li><a href="../html/speciality.html">Specialities</a></li>
-                    <li><a href="../html/patient-review.html">Patient Reviews</a></li>
+                    <li><a href="speciality.html">Specialities</a></li>
+                    <li><a href="patient-review.html">Patient Reviews</a></li>
                     <li><a href="#">About Us&nbsp;<i class="fas fa-caret-down"></i></a>
                         <ul id="sim">
-                            <li><a href="../html/about-overview.html">Overview</a></li>
-                            <li><a href="../html/about-chairman.html">Chairman Message</a></li>
+                            <li><a href="about-overview.html">Overview</a></li>
+                            <li><a href="about-chairman.html">Chairman Message</a></li>
                         </ul>
                     </li>
-                    <li><a href="../html/contact.html">Contact Us</a></li>
-                    <li><a href="../html/login.html">Login</a></li>
-                    <li><a href="../html/register.html">Register</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,16 +45,16 @@ class MyFooter extends HTMLElement {
         <div class="footer2" id="foot2">
             <h3>Quick Links</h3>
             <ul>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/home.html"> &nbsp; Home</a></li>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/pune-hospital.html"> &nbsp; Hospitals </a>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="index.html"> &nbsp; Home</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="pune-hospital.html"> &nbsp; Hospitals </a>
                 </li>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/speciality.html"> &nbsp; Specialities</a>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="speciality.html"> &nbsp; Specialities</a>
                 </li>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/patient-review.html"> &nbsp; Reviews </a>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="patient-review.html"> &nbsp; Reviews </a>
                 </li>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/about-overview.html">&nbsp; About Us</a>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="about-overview.html">&nbsp; About Us</a>
                 </li>
-                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="../html/contact.html"> &nbsp; Contacts</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a href="contact.html"> &nbsp; Contacts</a></li>
             </ul>
         </div>
         <div class="footer2" id="foot3">
